@@ -4,6 +4,4 @@
 
 ### TODOList
 
-- Un document est en anglais; nous allons le retirer en prétraitement
-- Enlever les accents
-- Ajouter les titres aux articles
+*cleaned*
