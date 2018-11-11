@@ -4,6 +4,6 @@
 
 ### TODOList
 
-- mesure de qualité
-- retirer les mots qui apparraissent dans 90% des documents
-- résoudre les problèmes restants dans l'analyse diachronique
+- Je pense qu'il y a un problème avec kmeans; inspecter
+- Merge et tester feature_bayes
+
