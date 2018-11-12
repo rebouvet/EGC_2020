@@ -4,6 +4,17 @@
 
 ### TODOList
 
-- mesure de qualité
-- retirer les mots qui apparraissent dans 90% des documents
-- résoudre les problèmes restants dans l'analyse diachronique
+- Analyser:
+	- Réaliser un tableau avec le nombre de clusters, et la silhouette moyenne
+	- Pour la meilleure silouhette, décrire l'évolution des concepts dans le temps
+- Afficher les résultats avec des couleurs, des cercles pour les clusters, etc...
+- Faire les diapos
+
+#### Courage, mes frères! Notre Graal est à portée de main!!
+
+
+
+
+
+- Doit-on appliquer silhouette pour chaque partition (comme maintenant), ou pour tous les clusters existants?
+-> Le but est d'avoir un clustering bon dans chaque partition. On ne doit pas forcer les clusters à se ressembler entre partitions; on va donc garder notre code: on applique silhouette pour chaque partition
